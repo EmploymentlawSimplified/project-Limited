@@ -1,0 +1,10 @@
+{
+  // Match the existing Cloudflare Worker and preserve any existing custom domains,
+  // routes and other settings when integrating this static-site package.
+  "name": "thenewstartprojectltd",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
